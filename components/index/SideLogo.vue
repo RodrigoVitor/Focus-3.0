@@ -1,14 +1,14 @@
 <template>
-    <div>
+    <div id="Main">
         <b-container class="bv-example-row float-left d-flex justify-content-center align-items-center" id="container">
             <b-row>
                 <b-col>
-                    <img src="/img/logo.png" alt="logo focus" id="logo-image">
+                    <img src="/img/logo-mobile.png" alt="logo focus" id="logo-image">
                 </b-col>
             </b-row>
             <b-row>
                 <b-col>
-                    <img src="/img/readbook.png" alt="menino lendo livro" id="book-image">
+                    <img src="/img/readbook-mobile.png" alt="menino lendo livro" id="book-image">
                 </b-col>
             </b-row>
             <b-row class="m-5">
@@ -19,8 +19,10 @@
 </template>
 
 <style scoped>
+#Main {
+    width:50%;
+}
 #container {
-    width:50vw;
     height:100vh;
     background: #FBFF1A;
     flex-direction: column;
@@ -28,5 +30,15 @@
 #container .row p {
     color:#004AAD;
     font-weight:bold
+}
+
+/* SMartphone */
+@media screen and (max-width:428px) {
+    #Main {
+        width:100vw;
+    }
+    #container {
+        height: 400px;
+    }
 }
 </style>

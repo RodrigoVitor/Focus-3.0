@@ -2,7 +2,7 @@
     <div class="float-right" id="Main">
         <b-container id="container" v-if="show">
             <h1>Login</h1>
-            <b-form class="m-5">
+            <b-form class="m-5 login">
                 <b-form-group>
                     <b-form-input type="email" placeholder="Digite seu email"></b-form-input>
                 </b-form-group>
@@ -54,7 +54,7 @@ export default {
 <style scoped>
 #Main {
     height:100vh;
-    width:50vw;
+    width:50%;
     text-align:center;
     background: #FBFF2D
 }
@@ -74,6 +74,20 @@ export default {
     background-color:#004aad;
     width:250px;
     font-size:1.2rem
+}
+
+/* Smartphone */
+@media screen and (max-width:428px) {
+    #Main {
+        width:100%;
+        height:80vh;
+    }
+    #container {
+        margin-top:0px
+    }
+    .login input {
+        width:250px
+    }
 }
 
 </style>
