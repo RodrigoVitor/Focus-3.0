@@ -56,24 +56,27 @@ export default {
     height:100vh;
     width:50%;
     text-align:center;
-    background: #FBFF2D
+    background: #004AAD
 }
 #container {
     margin-top:25vh
 }
 #container h1 {
-    color: #004aad;
+    color: #fff;
 }
 #container p {
-    cursor:pointer
+    cursor:pointer;
+    color:#fff
 }
 #container p:hover {
-    color:blue
+    color:#ccc
 }
 #container form button {
-    background-color:#004aad;
+    background-color:rgba(1, 74, 173,.5);
     width:250px;
-    font-size:1.2rem
+    font-size:1.2rem;
+    border-radius:15px;
+    /* border:none */
 }
 
 /* Smartphone */
@@ -84,6 +87,9 @@ export default {
     }
     #container {
         margin-top:0px
+    }
+    #container h1 {
+        margin-top:25px;
     }
     .login input {
         width:250px

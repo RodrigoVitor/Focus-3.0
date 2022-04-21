@@ -1,7 +1,7 @@
 <template>
     <div id="Main">
         <b-container class="bv-example-row float-left d-flex justify-content-center align-items-center" id="container">
-            <b-row>
+            <b-row class="mt-5">
                 <b-col>
                     <img src="/img/logo-mobile.png" alt="logo focus" id="logo-image">
                 </b-col>
@@ -24,7 +24,7 @@
 }
 #container {
     height:100vh;
-    background: #FBFF1A;
+    background: #fff;
     flex-direction: column;
 }
 #container .row p {
@@ -38,7 +38,7 @@
         width:100vw;
     }
     #container {
-        height: 400px;
+        height: 350px;
     }
 }
 </style>
