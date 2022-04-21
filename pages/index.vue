@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="page-main">
     <SideLogo />
     <LoginRegister />
   </div>
@@ -14,6 +14,9 @@ export default {
 <style>
 * {
   margin:0;
-  padding:0
+  padding:0;
+}
+#page-main {
+  position: relative;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div id="Main">
+    <footer>
         <div class="container">
             <b-row>
                 <b-col>
@@ -13,15 +13,15 @@
                 </b-col>
             </b-row>
         </div>
-    </div>
+    </footer>
 </template>
 
 <style scoped>
-#Main {
+footer {
     background-color: #013d8b;
-    color:#fff
+    color:#fff;
 }
-#Main a {
+footer a {
     color:#fff;
     font-weight: bold;
 }

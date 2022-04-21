@@ -32,7 +32,7 @@ export default {
       '~/components/home',
       '~/components/forms',
       '~/components/dashboard',
-      '~/components/layout'
+      '~/components/layouts'
     ]
   },
 
