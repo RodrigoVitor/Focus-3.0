@@ -1,5 +1,11 @@
 # Focus
 
+### Versão em desenvolvimento
+<br>
+<hr>
+<br>
+
+
 ## Build Setup
 
 ```bash
