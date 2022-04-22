@@ -1,6 +1,7 @@
 <template>
     <div>
         <Navbar />
+        <AddShowTask />
     </div>
 </template>
 
@@ -11,6 +12,6 @@ export default {
 
 <style scoped>
 div {
-    min-height: 85vh;
+    min-height: 70vh;
 }
 </style>
