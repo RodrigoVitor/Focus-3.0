@@ -30,7 +30,7 @@ export default {
       '~/components',
       '~/components/index',
       '~/components/home',
-      '~/components/forms',
+      '~/components/store',
       '~/components/dashboard',
       '~/components/layouts'
     ]
