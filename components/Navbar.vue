@@ -6,8 +6,7 @@
         <div class="nav-item">
             <NuxtLink to="/home">Home </NuxtLink>
             <NuxtLink to="/store">Loja </NuxtLink>
-            <NuxtLink to="/">Meu Estoque </NuxtLink>
-            <NuxtLink to="/">Perfil </NuxtLink>
+            <NuxtLink to="/my-rewards">Meu Estoque </NuxtLink>
             <NuxtLink to="/">Logout </NuxtLink>
         </div>
     </nav>
