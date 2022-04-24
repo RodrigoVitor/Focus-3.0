@@ -31,7 +31,7 @@ export default {
       '~/components/index',
       '~/components/home',
       '~/components/store',
-      '~/components/dashboard',
+      '~/components/myrewards',
       '~/components/layouts'
     ]
   },
