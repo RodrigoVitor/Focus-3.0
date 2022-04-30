@@ -24,7 +24,14 @@ O desenvolvimento do backend começara em maio, as tecnologia que será utilizad
     * Nodejs e MongoDB
 
 
-[Tela inicial](./static/mobile.png)
+# Tela Inicial
+## Desktop
+<img src="./static/desktop.png">
+
+<br>
+
+## Mobile
+<img src="./static/mobile.gif" style="margin-left:25vw">
 
 <br>
 <hr>
