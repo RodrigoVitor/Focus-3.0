@@ -1,26 +1,30 @@
 <template>
-    <nav class="d-flex align-items-center">
-        <div class="nav-item">
-            <p>Rodrigo Vitor <span>0xp</span></p>
-        </div>
-        <div class="nav-item">
-            <NuxtLink to="/home">Home </NuxtLink>
-            <NuxtLink to="/store">Loja </NuxtLink>
-            <NuxtLink to="/my-rewards">Meu Estoque </NuxtLink>
-            <NuxtLink to="/">Logout </NuxtLink>
-        </div>
-    </nav>
+    <div id="Main">
+        <b-navbar toggleable="lg" class="d-flex" type="dark"  id="nav">
+            <b-navbar-brand href="#">Rodrigo Vitor <span>0xp</span></b-navbar-brand>
+
+            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+            <b-collapse id="nav-collapse" is-nav>
+
+            <!-- Right aligned nav items -->
+            <b-navbar-nav class="ml-auto">
+                <NuxtLink to="/home">Home </NuxtLink>
+                <NuxtLink to="/store">Loja </NuxtLink>
+                <NuxtLink to="/my-rewards">Meu Estoque </NuxtLink>
+                <NuxtLink to="/">Logout </NuxtLink>
+            </b-navbar-nav>
+            </b-collapse>
+        </b-navbar>
+    </div>
 </template>
 
 <style scoped>
-nav {
-    background-color: #004AAD;
-    padding:10px;
-    justify-content: space-around;
+#Main {
+    min-height:20px;
 }
-.nav-item p {
-    color:white;
-    font-size:24px;
+#nav {
+    background-color: #004AAD;
 }
 a {
     color:white;
@@ -30,11 +34,5 @@ a {
 }
 .nuxt-link-exact-active {
     color:#ccc
-}
-
-@media screen and (max-width: 428px) {
-    nav {
-        display: none !important
-    }
 }
 </style>
