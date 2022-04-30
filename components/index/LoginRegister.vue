@@ -10,7 +10,7 @@
                     <b-form-input type="password" v-model="form.password" placeholder="Digite sua senha"></b-form-input>
                 </b-form-group>
                 <p @click="showLoginRegister">Não possue uma conta? cadastra-se já!</p>
-                <b-button>Entrar</b-button>
+                <b-button @click="redirect">Entrar</b-button>
             </b-form>
         </b-container>
 
@@ -74,6 +74,9 @@ export default {
         },
         conf_pass() {
             return this.form.confpass != this.form.userpass ? this.validate.confpassState = false : this.validate.confpassState = true
+        },
+        redirect() {
+            this.$router.replace('home')
         }
     },
     computed: {

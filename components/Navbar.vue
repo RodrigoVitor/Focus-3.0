@@ -31,4 +31,10 @@ a {
 .nuxt-link-exact-active {
     color:#ccc
 }
+
+@media screen and (max-width: 428px) {
+    nav {
+        display: none !important
+    }
+}
 </style>
