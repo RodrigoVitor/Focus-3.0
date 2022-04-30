@@ -15,7 +15,7 @@
                     <p>Estudar para prova de inglÊs</p>
                 </b-col>
                 <b-col lg="1"  md="2">
-                    <a href="#" class="delete-icon"><ion-icon name="trash-outline" size="large"></ion-icon></a>
+                    <a href="#" class="delete-icon"><ion-icon name="close-outline" size="large"></ion-icon></a>
                 </b-col>
                 <b-col lg="1"  md="2">
                     <a href="#"><ion-icon name="checkmark-done-outline" size="large"></ion-icon></a>
@@ -26,7 +26,7 @@
                     <p>Estudar javascript as 9h</p>
                 </b-col>
                 <b-col lg="1">
-                    <a href="#" class="delete-icon"><ion-icon name="trash-outline" size="large"></ion-icon></a>
+                    <a href="#" class="delete-icon"><ion-icon name="close-outline" size="large"></ion-icon></a>
                 </b-col>
                 <b-col lg="1">
                     <a href="#"><ion-icon name="checkmark-done-outline" size="large"></ion-icon></a>
@@ -37,7 +37,7 @@
                     <p>Passear com o dog</p>
                 </b-col>
                 <b-col lg="1">
-                    <a href="#" class="delete-icon"><ion-icon name="trash-outline" size="large"></ion-icon></a>
+                    <a href="#" class="delete-icon"><ion-icon name="close-outline" size="large"></ion-icon></a>
                 </b-col>
                 <b-col lg="1">
                     <a href="#"><ion-icon name="checkmark-done-outline" size="large"></ion-icon></a>
