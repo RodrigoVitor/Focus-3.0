@@ -19,7 +19,7 @@ Para mais detalhes sobre o projeto, verifica as versões anteriores abaixo:
  <br>
 
 # Back-end
-O desenvolvimento do backend começara em maio, as tecnologia que será utilizada são:
+O desenvolvimento do backend começara em breve, as tecnologia que pretendo utilizar são:
     
     * Nodejs e MongoDB
 
